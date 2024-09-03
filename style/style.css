@@ -6,14 +6,19 @@
 }
 
 body {
-    border: 5px inset rgb(173, 97, 97);
+    border: 5px outset rgb(173, 97, 97);
     width: 25vw;
-    height: 500px;
+    height: 100vh;
     margin: 0 auto;
 }
 
-ul {
-    list-style: none;
+img {
+    width: 200px;
+    height: 200px;
+}
+
+ul, ol {
+    list-style: disc;
     margin: 50px;
 }
 
@@ -28,6 +33,6 @@ h1 {
     text-align: center;
 }
 
-li {
+.hmp-list {
     margin: 50px;
 }
